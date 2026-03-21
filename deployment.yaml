@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: ghcr.io/novelcore/bad-docs-api:f0f87800301755603dae71e75380d8d95bde1362
+          image: ghcr.io/novelcore/bad-docs-api:latest
           ports:
             - containerPort: 8000
           env:
